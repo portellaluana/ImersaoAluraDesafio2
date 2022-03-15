@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="./ASSETS/numbers.png" alt="icon-numbers">
+    <header class="cabecalho">
+        <h1>Três tentativas</h1>
+    </header>
+    <section class="input">
+        <div> <input type="number" id="tentativa" placeholder="Digite números de 0 a 10"></div>
+
+        <div> <button type="submit" onclick="tentar()">Tentar</button>
+        </div>
+        <div class="atualizar"> <img type="button" value="Atualizar" onClick="history.go(0)" src="./ASSETS/atualizar.png" alt="botaoAtualizar"></div>
+
+        <div class="resposta">
+            <h2 id="resultado"> </h2>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
