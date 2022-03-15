@@ -1,4 +1,4 @@
-# Segundo desafio do Imersão Alura
+# Segundo desafio Imersão Alura
 
 Criando joguinho com contador de tentativas.
 
